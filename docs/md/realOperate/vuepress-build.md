@@ -1,9 +1,5 @@
 # 《实操系列 - Linux下一步一步用VuePress + GithubPages 搭建个人技术博客》
 
-[TOC]
-
-
-
 ## 一、VuePress 简单的介绍
 
 ### 1、VuePress 官网

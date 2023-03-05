@@ -5349,6 +5349,11 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "^3.0.0"
 
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmmirror.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
+  integrity sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==
+
 lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npmmirror.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
@@ -8261,6 +8266,11 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
+vuepress-plugin-anchor-right@^0.0.1-beta.7:
+  version "0.0.1-beta.7"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-anchor-right/-/vuepress-plugin-anchor-right-0.0.1-beta.7.tgz#02c0f063199792e143a17a004a039e94e2815031"
+  integrity sha512-w3K39Z9BO7Yb8YK9GSoy+OVzboKHwoEOKtMDsErUDY2jIe7zRur0JDfWYmhEKidKmAKSX/nHH7YQkDC4WHsMBQ==
+
 vuepress-plugin-container@^2.0.2:
   version "2.1.5"
   resolved "https://registry.npmmirror.com/vuepress-plugin-container/-/vuepress-plugin-container-2.1.5.tgz#37fff05662fedbd63ffd3a5463b2592c7a7f3133"
@@ -8268,6 +8278,13 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     "@vuepress/shared-utils" "^1.2.0"
     markdown-it-container "^2.0.0"
+
+vuepress-plugin-right-anchor@^0.5.5:
+  version "0.5.5"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-right-anchor/-/vuepress-plugin-right-anchor-0.5.5.tgz#f5b8b12e8c911e51a3203d6e40f5d3b0d3213d10"
+  integrity sha512-C/zKeCw8Zzcd62DSGyiOwG6gOE9//VY5lPFPXxh1N/kJ2ICoCLNKBTFk2L9oDRgpWVc1TXk4HDqT+wxqz7MgmQ==
+  dependencies:
+    lodash.throttle "^4.1.1"
 
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
